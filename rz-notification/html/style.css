@@ -1,0 +1,41 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.rz-notif-kr{
+    display: none;
+    position: absolute;
+    width: 50vh;
+    height: 16vh;
+    top: 80%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.rz-notif-title {
+    position: relative;
+    padding: .5vh;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    font-size: 1.7vh;
+    font-weight: 600;
+    color: white;
+    background-color: #4d574a;
+    border-radius: .2vh;
+    text-align: center;
+    padding: .7vh 1.4vh .7vh;
+}
+
+.rz-notif-text {
+    position: relative;
+    font-size: 2.7vh;
+    width: auto;
+    font-weight: 700;
+    margin-top: 5vh;
+    color: white;
+    background: transparent;
+    text-align: center;
+}
